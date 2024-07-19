@@ -44,6 +44,13 @@ body{
     padding: 0 30px 30px;
 }
 
+.container .imagem-media{
+    max-width: 300px;
+    display:flex;
+    float: left;
+   
+}
+
 .container .imagem-titulo {
     max-width: 500px;
 }
