@@ -47,7 +47,8 @@ body{
 .container .imagem-media{
     max-width: 300px;
     display:flex;
-    float: left;
+    justify-content:flex-end;
+    justify-content:space-around
    
 }
 
@@ -150,4 +151,79 @@ body{
 .modal.aberto {
     opacity: 1;
     visibility: visible;
+}
+
+.detalhes{
+    display: flex;
+    /* background-color: #f03a17; */
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 510px;
+    margin-bottom: 30px; 
+}
+
+.texto_detalhe{
+    display:flex;
+    /* background-color: #0a0f0b; */
+    justify-content: center;
+    width: 800px;
+    height: 510px;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.titulo_detalhes{
+    color: aliceblue;
+    font-size: 80px;
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}    
+
+.descricao_detalhes {
+    color: #a8adb7;
+    width: 85%;
+    font-size: 18px;
+    margin: 30px 0;
+    /* background-color: blueviolet; */
+}
+
+.container .botao-trailer:hover {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    height: calc(100vh - 132px);    
+    padding: 0 30px 30px;
+}
+
+.content{
+    width: 100vw;
+    height: 104%;
+    margin: 5px;
+    align-items: end;
+    /* background-color: #ffffff; */
+    overflow: auto;
+}
+
+/* ::-webkit-scrollbar-track { */
+    /* background-color: #030303; */
+/* } */
+
+::-webkit-scrollbar {
+    width: 7px;
+    background: #f4f4f413;
+    border-radius: 10px;
+
+}
+::-webkit-scrollbar-thumb {
+    background: #9c0b0b;
+    border-radius: 8px; 
+}
+
+::-webkit-scrollbar-button{
+    background-color: #9c0b0b;
+    height: 5px;
+    border-radius: 10px;
 }
