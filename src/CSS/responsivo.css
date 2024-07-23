@@ -38,7 +38,75 @@
         background-color: #263238;
         
     }
-}   
+    
+    /* PAgina Detalhes  */
+
+    .container2 {
+        max-width: 100vw ;
+    }
+
+    .content {
+        max-width: 100vw;
+        flex-direction: column;
+    }
+
+    .detalhes {
+        align-items: center;
+        height: auto;
+    }
+
+    .texto_detalhe {
+        width: 100%;
+        height: auto;
+        margin-top: 10px;
+        text-align: justify;
+        order: 1;
+    }
+
+    .descricao_detalhes {
+        justify-content: center;
+    }
+
+    .bowser {
+        width: auto;
+        text-align: justify;
+        order: 1;
+    }
+    
+    .imagem-media {
+        height: auto;
+        width: auto;
+    }
+
+}
+
+@media (max-width: 800px) {
+    .titulo_detalhes {
+        font-size: 10vw;
+    }
+
+    .container2 {
+        width: 100vw;
+        max-height: auto;
+    }
+
+    .content {
+        max-width: 95vw;
+        width: 100vw;
+        flex-direction: column;
+    }
+    
+    .detalhes{
+        width: 100%;
+
+    }
+
+    .imagem-media{
+        width: 70vw;
+    }
+
+}
+
 
 @media (max-width: 500px) {
     .cabecalho {
@@ -60,12 +128,65 @@
         width: 300px;
         height: 169px;
     }
+
+    .container2 {
+        max-width: 100%;
+    }
+
+    .content {
+        max-width: 100%;
+        flex-direction: column;
+    }
+
+    .detalhes {
+        align-items: center;
+        height: auto;
+        max-width: 100%;
+    }
+
+    .texto_detalhe {
+        width: 100%;
+        height: auto;
+        margin-top: 10px;
+        text-align: justify;
+    }
+
+    .descricao_detalhes {
+        justify-content: center;
+    }
+
+    .bowser {
+        width: auto;
+        text-align: justify;
+    }
+    
+    .imagem-media {
+        height: auto;
+        width: 50vw;
+    }
+
 }
+
+
 
 @media (max-width: 376px) {
     .modal #video{
         width: 250px;
-        height: 140px;
+        height: auto;
     }
-}
 
+    .imagem-media{
+        width: 60vw;
+    }
+
+    .detalhes {
+        justify-content: space-around;
+        margin-bottom: 30px;
+    }
+
+    .bowser {
+        justify-content: space-around;
+    }
+
+    
+}
